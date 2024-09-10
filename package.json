@@ -1,13 +1,14 @@
 {
-  "name": "side_proj_of_book_modern_JS_lib_development",
-  "version": "1.0.0-alpha.1",
-  "description": "",
+  "name": "moderjslibcode",
+  "version": "1.0.0-alpha.2",
+  "description": "code following the book: modern JS lib development",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "release": "npm publish --access public"
   },
   "keywords": [],
   "author": "",
