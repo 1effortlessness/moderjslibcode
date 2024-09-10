@@ -1,10 +1,11 @@
+import { kindOf } from "./utils.js";
 function deepClone(obj) {
-  if (typeof obj !== "object" || obj === null) {
+  if (kindOf(obj) !== "object") {
     return obj;
   }
 
-  if (Array.isArray(obj)) {
-    return obj.map((item) => deepClone(item));
+  if (kindOf(obj) === "array") {
+    return obj.map(deepClone);
   }
 
   const clonedObj = {};
