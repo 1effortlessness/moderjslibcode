@@ -1,6 +1,6 @@
 {
   "name": "moderjslibcode",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "code following the book: modern JS lib development",
   "type": "module",
   "main": "dist/index.js",
