@@ -21,5 +21,8 @@
     "coverage": {
       "provider": "v8"
     }
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
